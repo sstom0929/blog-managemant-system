@@ -1,0 +1,157 @@
+html {
+    background-color: #f2f2f2;
+}
+body {
+    font-family:Microsoft JhengHei;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+div.main {
+    height: 100%;
+    margin: 0 0 0 0;
+}
+div.left {
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    width:170px;
+    float:left;
+    background: #262626;
+    margin:0 0 0 0;
+}
+div.center {
+    margin-left: 170px;
+    height: 100%;
+}
+ul.parent{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+div.left li {
+    color: white;
+    font-size: 22px;
+}
+div.left li:hover {
+    color: dodgerblue;
+}
+ul.parent:hover {
+    background-color: black;
+}
+ul.child{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: left;
+    left: 0;
+    background: #32373c;
+}
+ul.child li{
+    font-size: 19px; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul.float {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    visibility: hidden;
+    width: 130px; 
+    position: absolute;
+    top: 0px;
+    left: 170px;
+    z-index: 5;
+    background-color: #23262a;
+}
+ul.float li{
+    list-style: none;
+    font-size: 19px; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul.nowul {
+    background-color: #0073e6;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.nowul li:hover {
+    color: white;
+}
+div.left li.now:hover {
+    color: white;
+}
+li.now {
+    font-weight: 900;
+}
+div.left li a { 
+    margin: 0px; 
+    display: block; 
+    height: 100%; 
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
+ul.float li a {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+ul.child li a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 28px;
+}
+div.left [href] {
+    text-decoration: none;
+    color: inherit;
+}
+div.center {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+input, select {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+form.add_class_form {
+    float:left;
+    width:40%;
+}
+form.del_class_form {
+    float: left;
+    width: 60%;
+}
+form [type="text"] {
+    width: 80%;
+}
+[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+table {
+    border-collapse:collapse;
+}
+table, tr {
+    border: solid 2px #d9d9d9;
+}
